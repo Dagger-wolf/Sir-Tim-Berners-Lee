@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    text-align: center;
+}
+.img{
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    bottom: 0;
+    background:linear-gradient(#761806 50%,#2600ff 100%);
+    width:100%;
+    height:100%;
+    display:table;
+    padding-top:800px;
+}
+.parlex-inner{
+    display: table-cell;
+    vertical-align:medium;
+}
+h1{
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 400;
+}
+#name{
+    font-size: 60px;
+    font-family: 'Festive', cursive;
+}
+h2{
+    font-size:40px;
+    font-weight:lighter;
+    font-family:'Times New Roman', Times, serif ;
+}
+#bio{
+    font-family:'Courier New', Courier, monospace;
+    padding: 250px;
+    margin-top: 800px;
+    font-family: 'IM Fell English SC', serif;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: #761809;
+    margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top:0px;
+    margin-top: 0px;
+    background: white;
+    width: 100%;
+    margin-bottom: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 24px;
+    font-family:fantasy;
+    display: inline;
+}
+a{
+    text-decoration-line: underline;
+    text-decoration-style:dashed;
+}
+.links:hover{
+    font-size: 30px;
+    text-decoration:underline;
+}
+#contacts iframe{
+    width:100%;
+}
+#contacts{
+    background-color: goldenrod;
+}
+.contact1 h3{
+    display:inline;
+}
+#writing a{
+    text-decoration:underline !important;
+    color:goldenrod !important;
+}
